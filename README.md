@@ -17,7 +17,7 @@
 - Descargar y descomprimir este repositorio
 - instalar dependecias con:
   ` npm i`
-- crear archivo en raiz .env con: `URL_API= https://taller-2.onrender.com/api/products `
+- crear archivo en raiz `.env` con: `URL_API= https://taller-2.onrender.com/api/products `
 - ejecutar proyecto con:
   `npm start`
 
