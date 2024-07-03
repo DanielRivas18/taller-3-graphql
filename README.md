@@ -1,3 +1,7 @@
+## DESPLIEGUE FRONTED CON USO DE GRAPHQL
+  
+- [fronted-taller-3-graphql.vercel.app](https://fronted-taller-3-graphql.vercel.app/)
+  
 # TALLER GRAPHQL
 
 - dentro del desarrollo de este taller se conecto la API REST: https://taller-2.onrender.com/api/products que contiene la logica(metodos get, put,delete, etc... ) y datos  relacionados con los productos de una miscelanea con GRAPHQL.
@@ -6,9 +10,8 @@
 
 - despliegue de GRAPHQL para uso en FRONTED: https://taller-3-graphql.onrender.com/
 
-  ## DESPLIEGUE FRONTED CON USO DE GRAPHQL
-  
-- [fronted-taller-3-graphql.vercel.app](https://fronted-taller-3-graphql.vercel.app/)
+-  si quiere saber el contexto(documentacion de proyecto), se le recomienda leer el pdf, donde se explica la problematica que se a venido trabajando a lo largo del semestre en los talleres. 
+
 
 ### INSTALACION LOCAL DE GRAPHQL
 
