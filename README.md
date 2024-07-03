@@ -8,11 +8,11 @@
 
   ## DESPLIEGUE FRONTED CON USO DE GRAPHQL
   
-- fronted-taller-3-graphql.vercel.app
+- [fronted-taller-3-graphql.vercel.app](https://fronted-taller-3-graphql.vercel.app/)
 
 ### INSTALACION LOCAL DE GRAPHQL
 
-- si quieres mirar las querys y mutaciones creadas en este proyecto de mejo manera se recomienda instalar el repositorio de manera local para poder analizar con apolo server lo creado en este taller para eso:
+- si quieres analizar  las querys y mutaciones creadas en este proyecto de mejor manera se recomienda instalar el repositorio de manera local para poder analizar con apolo server lo creado en este taller para eso:
 
 - Descargar y descomprimir este repositorio
 - instalar dependecias con:
