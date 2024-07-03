@@ -4,43 +4,50 @@
   
 # TALLER GRAPHQL
 
-- dentro del desarrollo de este taller se conecto la API REST: https://taller-2.onrender.com/api/products que contiene la logica(metodos get, put,delete, etc... ) y datos  relacionados con los productos de una miscelanea con GRAPHQL.
+- Dentro del desarrollo de este taller se conectó la API REST: [https://taller-2.onrender.com/api/products](https://taller-2.onrender.com/api/products) que contiene la lógica (métodos get, put, delete, etc.) y datos relacionados con los productos de una miscelánea con GRAPHQL.
+  
+- Documentación de la API REST para mayor entendimiento de lógica API REST: [https://taller-2.onrender.com/docs/](https://taller-2.onrender.com/docs/)
 
-- documentacion de la API REST para mayor entendimiento de logica API REST:  https://taller-2.onrender.com/docs/
+- Despliegue de GRAPHQL para uso en FRONTED: [https://taller-3-graphql.onrender.com/](https://taller-3-graphql.onrender.com/)
 
-- despliegue de GRAPHQL para uso en FRONTED: https://taller-3-graphql.onrender.com/
+- Si quiere saber el contexto (documentación de proyecto), se le recomienda leer el PDF, donde se explica la problemática que se ha venido trabajando a lo largo del semestre en los talleres y proyecto.
 
--  si quiere saber el contexto(documentacion de proyecto), se le recomienda leer el pdf, donde se explica la problematica que se a venido trabajando a lo largo del semestre en los talleres y proyecto. 
+### INSTALACIÓN LOCAL DE GRAPHQL
 
+- Si quieres analizar las queries y mutaciones creadas en este proyecto de mejor manera, se recomienda instalar el repositorio de manera local para poder analizar con Apollo Server lo creado en este taller. Para eso:
 
-### INSTALACION LOCAL DE GRAPHQL
+  - Descargar y descomprimir este repositorio
+  - Instalar dependencias con:
+    ```sh
+    npm i
+    ```
+  - Crear archivo en raíz `.env` con:
+    ```env
+    URL_API=https://taller-2.onrender.com/api/products
+    ```
+  - Ejecutar proyecto con:
+    ```sh
+    npm start
+    ```
 
-- si quieres analizar  las querys y mutaciones creadas en este proyecto de mejor manera se recomienda instalar el repositorio de manera local para poder analizar con apolo server lo creado en este taller para eso:
+# RECOMENDACIONES ANTE POSIBLES FALLOS
 
-- Descargar y descomprimir este repositorio
-- instalar dependecias con:
-  ` npm i`
-- crear archivo en raiz `.env` con: `URL_API= https://taller-2.onrender.com/api/products `
-- ejecutar proyecto con:
-  `npm start`
+Si el proyecto no funciona correctamente, se le recomienda acceder directamente (acceder a las direcciones) al despliegue hecho en Render de GRAPHQL y del API REST, ya que como este es un servicio gratuito de despliegue, puede que dicho despliegue no esté activo en el momento de su uso.
 
-# RECOMENDACIONES ANTE  POSIBLES FALLOS
+## QUERIES Y MUTACIONES
 
-Si el proyecto no funciona correctamente se le recomienda acceder directamente(acceder a las direcciones) al despliegue hecho en render de GRAPHQL y del APIREST, ya que como este es un servicio gratuito de despliegue, puede que dicho despliegue no este activo en el momento de su uso.
+- **getProducts**: trae todos los datos
+- **getProductById**: trae solo un dato buscado por el ID
 
-## QUERYS Y MUTACIONES
+- **createProduct**: almacena un nuevo producto
+- **updateProduct**: edita un producto existente
+- **deleteProduct**: elimina un producto
+- **sellProduct**: vende un producto
 
-- getProducts: trae todos los datos
-- getProductById: trae solo un dato buscado por el id
+  - Datos traídos:
 
-- createProduct: almacena un nuevo producto
-- updateProduct: edita un producto existente
-- deleteProduct: elimina un producto
-- sellProduct: vende un producto
-
-  - datos traidos :
-
-type Data {
+    ```graphql
+    type Data {
         id: ID!
         nombre: String
         inventario: Int
@@ -50,7 +57,4 @@ type Data {
         estado_actual: String
         fecha_ingreso: String
     }
-
-  
-
-  
+    ```
