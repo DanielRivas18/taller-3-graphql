@@ -24,6 +24,9 @@
 - ejecutar proyecto con:
   `npm start`
 
+# RECOMENDACIONES ANTE  POSIBLES FALLOS
+
+Si el proeycto no funciona correctamente se le recomienda acceder directamente al despliegue hecho en render de GRAPHQL y del APIREST, ya que como este es un servicio gratuito de despliegue, puede que dicho despliegue no este activo en el momento de su uso.
 
   
 
