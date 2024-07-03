@@ -4,7 +4,7 @@
   
 # TALLER GRAPHQL
 
-- Dentro del desarrollo de este taller se conectó la API REST: [https://taller-2.onrender.com/api/products](https://taller-2.onrender.com/api/products) que contiene la lógica (métodos get, put, delete, etc.) y datos relacionados con los productos de una miscelánea con GRAPHQL.
+- Dentro del desarrollo de este taller se conectó la API REST: [https://taller-2.onrender.com/api/products](https://taller-2.onrender.com/api/products) que contiene la lógica (métodos get, put, delete, etc.) y datos relacionados con los productos de una miscelánea, con GRAPHQL.
   
 - Documentación de la API REST para mayor entendimiento de lógica API REST: [https://taller-2.onrender.com/docs/](https://taller-2.onrender.com/docs/)
 
