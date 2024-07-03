@@ -58,3 +58,7 @@ Si el proyecto no funciona correctamente, se le recomienda acceder directamente 
         fecha_ingreso: String
     }
     ```
+### DEMAS REPOSITORIOS:
+
+- FRONTED CON GRAPHQL:  https://github.com/DanielRivas18/fronted-taller-3-graphql
+- API REST:  https://github.com/DanielRivas18/taller-2
