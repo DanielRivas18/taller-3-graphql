@@ -12,7 +12,7 @@
 
 - Si quiere saber el contexto (documentación de proyecto), se le recomienda leer el PDF, donde se explica la problemática que se ha venido trabajando a lo largo del semestre en los talleres y proyecto.
 
-### INSTALACIÓN LOCAL DE GRAPHQL
+### INSTALACIÓN LOCAL PARA VISUALIZAR DOCUMENTACION DE GRAPHQL
 
 - Si quieres analizar las queries y mutaciones creadas en este proyecto de mejor manera, se recomienda instalar el repositorio de manera local para poder analizar con Apollo Server lo creado en este taller. Para eso:
 
