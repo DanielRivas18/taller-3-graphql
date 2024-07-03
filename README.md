@@ -10,7 +10,7 @@
 
 - despliegue de GRAPHQL para uso en FRONTED: https://taller-3-graphql.onrender.com/
 
--  si quiere saber el contexto(documentacion de proyecto), se le recomienda leer el pdf, donde se explica la problematica que se a venido trabajando a lo largo del semestre en los talleres. 
+-  si quiere saber el contexto(documentacion de proyecto), se le recomienda leer el pdf, donde se explica la problematica que se a venido trabajando a lo largo del semestre en los talleres y proyecto. 
 
 
 ### INSTALACION LOCAL DE GRAPHQL
