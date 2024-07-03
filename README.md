@@ -28,6 +28,29 @@
 
 Si el proyecto no funciona correctamente se le recomienda acceder directamente(acceder a las direcciones) al despliegue hecho en render de GRAPHQL y del APIREST, ya que como este es un servicio gratuito de despliegue, puede que dicho despliegue no este activo en el momento de su uso.
 
+## QUERYS Y MUTACIONES
+
+- getProducts: trae todos los datos
+- getProductById: trae solo un dato buscado por el id
+
+- createProduct: almacena un nuevo producto
+- updateProduct: edita un producto existente
+- deleteProduct: elimina un producto
+- sellProduct: vende un producto
+
+  - datos traidos :
+
+type Data {
+        id: ID!
+        nombre: String
+        inventario: Int
+        tipo_producto: String
+        fecha_vencimiento: String
+        precio: Int
+        estado_actual: String
+        fecha_ingreso: String
+    }
+
   
 
   
