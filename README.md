@@ -21,6 +21,15 @@
     ```sh
     npm i
     ```
+  - si hay fallos probar con
+ 
+    ```
+    npm pkg set type="module"
+
+    npm install @apollo/server graphql
+
+    npm i
+    ```
  
   - Ejecutar proyecto con:
     ```sh
