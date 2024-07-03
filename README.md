@@ -32,7 +32,7 @@
 
 # RECOMENDACIONES ANTE POSIBLES FALLOS
 
-Si el proyecto no funciona correctamente, se le recomienda acceder directamente (acceder a las direcciones) al despliegue hecho en Render de GRAPHQL y del API REST, ya que como este es un servicio gratuito de despliegue, puede que dicho despliegue no esté activo en el momento de su uso.
+Si el proyecto no funciona correctamente, se le recomienda acceder directamente (acceder a las direcciones) al despliegue hecho en Render de GRAPHQL y del API REST, ya que como este es un servicio gratuito de despliegue, puede que dichos despliegues no esten activos  en el momento de su uso.
 
 ## QUERIES Y MUTACIONES
 
