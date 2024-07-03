@@ -21,10 +21,7 @@
     ```sh
     npm i
     ```
-  - Crear archivo en raíz `.env` con:
-    ```env
-    URL_API=https://taller-2.onrender.com/api/products
-    ```
+ 
   - Ejecutar proyecto con:
     ```sh
     npm start
